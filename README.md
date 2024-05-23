@@ -11,7 +11,7 @@ Welcome to my collection of random projects! This repository contains various pr
 
 ## Projects
 
-### Movie Rental System (Django)
+### 1. Movie Rental System (Django)
 This project is a movie rental system built with Django. It allows staff members to perform CRUD (Create, Read, Update, Delete) operations on movie data. The key features include:
 
 - Adding new movies to the database.
@@ -23,7 +23,7 @@ This project is a movie rental system built with Django. It allows staff members
 - Django
 - SQLite (default Django database)
 
-### IBM Watson ML Model Deployment
+### 2. IBM Watson ML Model Deployment
 In this project, I created a machine learning model using IBM Watson. The model was trained on CSV data and then deployed to make it live. This project demonstrates the following:
 
 - Data preprocessing and cleaning.
@@ -35,7 +35,7 @@ In this project, I created a machine learning model using IBM Watson. The model 
 - Python
 - Pandas (for CSV data handling)
 
-### Library Management System (Core Java)
+### 3. Library Management System (Core Java)
 This is a library management system implemented in Java. The system utilizes many core Java concepts, including:
 
 - **Object-Oriented Programming**
@@ -52,7 +52,7 @@ The system supports functionalities like adding books, borrowing books, returnin
 **Technologies Used:**
 - Java
 
-### YouTube to MP3 Converter (Python)
+### 4. YouTube to MP3 Converter (Python)
 This mini project is a Python script that converts YouTube videos to MP3 format and downloads them. It showcases:
 
 - Fetching YouTube video data.
@@ -64,6 +64,16 @@ This mini project is a Python script that converts YouTube videos to MP3 format 
 - `pytube` library for YouTube video handling
 - `moviepy` library for video conversion
 - `tkinter` library for UI
+
+### 5. Generate CAPTCHA
+This script generates CAPTCHA images and saves them to a specified directory.
+
+- Generates random string
+- Create CAPTCHA from that string
+
+**Technologies Used:**
+- Python
+- `ImageCaptcha` library to generate CAPTCHA Image
 
 ## Contributing
 
