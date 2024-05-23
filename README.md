@@ -2,9 +2,16 @@
 
 Welcome to my collection of random projects! This repository contains various projects I've worked on, ranging from web development with Django to machine learning with IBM Watson, core Java applications, and Python scripting. Each project showcases different skills and concepts.
 
+## Project List
+
+- [Movie Rental System (Django)](#movie-rental-system-django)
+- [IBM Watson ML Model Deployment](#ibm-watson-ml-model-deployment)
+- [Library Management System (Core Java)](#library-management-system-core-java)
+- [YouTube to MP3 Converter (Python)](#youtube-to-mp3-converter-python)
+
 ## Projects
 
-### 1. Movie Rental System (Django)
+### Movie Rental System (Django)
 This project is a movie rental system built with Django. It allows staff members to perform CRUD (Create, Read, Update, Delete) operations on movie data. The key features include:
 
 - Adding new movies to the database.
@@ -16,10 +23,9 @@ This project is a movie rental system built with Django. It allows staff members
 - Django
 - SQLite (default Django database)
 
-### 2. IBM Watson ML Model Deployment
-In this project, I created a machine learning model using IBM Watson. The model was trained on CSV data and then deployed to make it live.  This project demonstrates the following:
+### IBM Watson ML Model Deployment
+In this project, I created a machine learning model using IBM Watson. The model was trained on CSV data and then deployed to make it live. This project demonstrates the following:
 
-- Presenting the CSV data.
 - Data preprocessing and cleaning.
 - Training a machine learning model.
 - Deploying the model using IBM Watson services.
@@ -27,8 +33,9 @@ In this project, I created a machine learning model using IBM Watson. The model 
 **Technologies Used:**
 - IBM Watson
 - Python
+- Pandas (for CSV data handling)
 
-### 3. Library Management System (Core Java)
+### Library Management System (Core Java)
 This is a library management system implemented in Java. The system utilizes many core Java concepts, including:
 
 - **Object-Oriented Programming**
@@ -43,9 +50,9 @@ This is a library management system implemented in Java. The system utilizes man
 The system supports functionalities like adding books, borrowing books, returning books, and generating reports on the borrowed books and users.
 
 **Technologies Used:**
-- Java (OOPS)
+- Java
 
-### 4. YouTube to MP3 Converter (Python)
+### YouTube to MP3 Converter (Python)
 This mini project is a Python script that converts YouTube videos to MP3 format and downloads them. It showcases:
 
 - Fetching YouTube video data.
@@ -56,7 +63,7 @@ This mini project is a Python script that converts YouTube videos to MP3 format 
 - Python
 - `pytube` library for YouTube video handling
 - `moviepy` library for video conversion
-- `tkinter` library for ui
+- `tkinter` library for UI
 
 ## Contributing
 
