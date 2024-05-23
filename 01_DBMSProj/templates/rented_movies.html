@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Rented Movies
+{% endblock %}
+
+{% block content %}
+    <h1>Rented Movies</h1>
+    <ul>
+        {% for movie in rented_movies %}
+            <li>{{ movie.title }} - 
+                Rented by: {{ movie.rental_set.first.rented_by.username }} (to: {{ movie.rental_set.first.rented_to }})
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
