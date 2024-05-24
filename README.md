@@ -8,6 +8,8 @@ Welcome to my collection of random projects! This repository contains various pr
 - [IBM Watson ML Model Deployment](#ibm-watson-ml-model-deployment)
 - [Library Management System (Core Java)](#library-management-system-core-java)
 - [YouTube to MP3 Converter (Python)](#youtube-to-mp3-converter-python)
+- [Generate CAPTCHA (Python)](#Generate-CAPTCHA)
+- [Website Scrapping using Python](#Website-Scrapping-using-Python)
 
 ## Projects
 
@@ -74,6 +76,14 @@ This script generates CAPTCHA images and saves them to a specified directory.
 **Technologies Used:**
 - Python
 - `ImageCaptcha` library to generate CAPTCHA Image
+
+### 6. Website Scrapping using Python
+This scripts is used for autometed website scrapping and creates a CSV file from scrapped data.
+
+**Technologies Used:**
+- tweepy to fetch tweeter data
+- BeautifulSoup 
+- AutoScraper
 
 ## Contributing
 
